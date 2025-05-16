@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{321DA1EC-8F97-4995-BC18-70CF18814A29}|DataAccess\\DataAccess.csproj|C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\dataaccess\\repository\\familiaproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{321DA1EC-8F97-4995-BC18-70CF18814A29}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\familiaproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D2E3183-DA4A-47B2-ACA9-8883B162A5CB}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\businesslogic\\controllers\\almacencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D2E3183-DA4A-47B2-ACA9-8883B162A5CB}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\controllers\\almacencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5F5A5E-0104-4A51-87EF-F0F5491C5C24}|PracticoAdo\\PracticoAdo.csproj|C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\practicoado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5F5A5E-0104-4A51-87EF-F0F5491C5C24}|PracticoAdo\\PracticoAdo.csproj|solutionrelative:practicoado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{321DA1EC-8F97-4995-BC18-70CF18814A29}|DataAccess\\DataAccess.csproj|C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\dataaccess\\repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{321DA1EC-8F97-4995-BC18-70CF18814A29}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{321DA1EC-8F97-4995-BC18-70CF18814A29}|DataAccess\\DataAccess.csproj|c:\\users\\jose.ramos01\\source\\repos\\practicoado\\dataaccess\\persistencia\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{321DA1EC-8F97-4995-BC18-70CF18814A29}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\persistencia\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766DAC2-B136-4CC8-BF29-BBD1942F7534}|Models\\Models.csproj|C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\models\\dto\\familiaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766DAC2-B136-4CC8-BF29-BBD1942F7534}|Models\\Models.csproj|solutionrelative:models\\dto\\familiaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{321DA1EC-8F97-4995-BC18-70CF18814A29}|DataAccess\\DataAccess.csproj|c:\\users\\jose.ramos01\\source\\repos\\practicoado\\dataaccess\\persistencia\\pconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{321DA1EC-8F97-4995-BC18-70CF18814A29}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\persistencia\\pconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C766DAC2-B136-4CC8-BF29-BBD1942F7534}|Models\\Models.csproj|C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\models\\dto\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C766DAC2-B136-4CC8-BF29-BBD1942F7534}|Models\\Models.csproj|solutionrelative:models\\dto\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PConexion.cs",
+              "DocumentMoniker": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\DataAccess\\Persistencia\\PConexion.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Persistencia\\PConexion.cs",
+              "ToolTip": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\DataAccess\\Persistencia\\PConexion.cs",
+              "RelativeToolTip": "DataAccess\\Persistencia\\PConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T23:58:16.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FamiliaProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\DataAccess\\Repository\\FamiliaProductoRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\FamiliaProductoRepository.cs",
+              "ToolTip": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\DataAccess\\Repository\\FamiliaProductoRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\FamiliaProductoRepository.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwGkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T00:14:34.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\DataAccess\\Repository\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\DataAccess\\Repository\\ProductoRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\ProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T00:14:03.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlmacenController.cs",
+              "DocumentMoniker": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\BusinessLogic\\Controllers\\AlmacenController.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Controllers\\AlmacenController.cs",
+              "ToolTip": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\BusinessLogic\\Controllers\\AlmacenController.cs",
+              "RelativeToolTip": "BusinessLogic\\Controllers\\AlmacenController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T01:14:11.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\PracticoAdo\\Program.cs",
+              "RelativeDocumentMoniker": "PracticoAdo\\Program.cs",
+              "ToolTip": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\PracticoAdo\\Program.cs",
+              "RelativeToolTip": "PracticoAdo\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA0wCYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T23:24:14.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\DataAccess\\Persistencia\\Repository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Persistencia\\Repository.cs",
+              "ToolTip": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\DataAccess\\Persistencia\\Repository.cs",
+              "RelativeToolTip": "DataAccess\\Persistencia\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T21:36:53.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FamiliaProducto.cs",
+              "DocumentMoniker": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\Models\\DTO\\FamiliaProducto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\FamiliaProducto.cs",
+              "ToolTip": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\Models\\DTO\\FamiliaProducto.cs",
+              "RelativeToolTip": "Models\\DTO\\FamiliaProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T23:51:06.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\Models\\DTO\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\Producto.cs",
+              "ToolTip": "C:\\Users\\jose.ramos01\\source\\repos\\PracticoAdo\\Models\\DTO\\Producto.cs",
+              "RelativeToolTip": "Models\\DTO\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T02:53:12.476Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
