@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\ceima\\source\\repos\\vozdeleste\\webapplication\\views\\usuarios\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\usuarios\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\ceima\\source\\repos\\vozdeleste\\webapplication\\viewmodels\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\viewmodels\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\ceima\\source\\repos\\vozdeleste\\webapplication\\controllers\\programaradioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\programaradioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\ceima\\source\\repos\\vozdeleste\\webapplication\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\ceima\\source\\repos\\vozdeleste\\webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\ceima\\source\\repos\\vozdeleste\\webapplication\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\ceima\\source\\repos\\vozdeleste\\webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\ceima\\source\\repos\\vozdeleste\\webapplication\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Views\\Usuarios\\Registro.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Usuarios\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Views\\Usuarios\\Registro.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Usuarios\\Registro.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T23:30:09.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProgramaRadiosController.cs",
+              "DocumentMoniker": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Controllers\\ProgramaRadiosController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\ProgramaRadiosController.cs",
+              "ToolTip": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Controllers\\ProgramaRadiosController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\ProgramaRadiosController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwDUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T00:34:42.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistroViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\ViewModels\\RegistroViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication\\ViewModels\\RegistroViewModel.cs",
+              "ToolTip": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\ViewModels\\RegistroViewModel.cs",
+              "RelativeToolTip": "WebApplication\\ViewModels\\RegistroViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T00:26:09.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T23:29:40.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T23:57:48.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Views\\Usuarios\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Usuarios\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Views\\Usuarios\\Login.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Usuarios\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T23:30:12.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Web.config",
+              "RelativeDocumentMoniker": "WebApplication\\Web.config",
+              "ToolTip": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Web.config",
+              "RelativeToolTip": "WebApplication\\Web.config",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-12T23:50:00.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ceima\\source\\repos\\VozDelEste\\WebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T23:44:52.258Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

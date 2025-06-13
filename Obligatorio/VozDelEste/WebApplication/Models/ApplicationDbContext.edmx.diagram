@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3dc0f63f8d864000b8d35eab86dc4329" Name="Diagram1">
+        <EntityTypeShape EntityType="VozDelEsteBDModel.Clima" Width="1.5" PointX="5.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VozDelEsteBDModel.ComentarioPrograma" Width="1.5" PointX="7.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VozDelEsteBDModel.Conductor" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VozDelEsteBDModel.CotizacionMoneda" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VozDelEsteBDModel.Noticia" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VozDelEsteBDModel.Patrocinador" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VozDelEsteBDModel.Persona" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VozDelEsteBDModel.Programacion" Width="1.5" PointX="7.5" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VozDelEsteBDModel.ProgramaRadio" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VozDelEsteBDModel.Usuario" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="VozDelEsteBDModel.FK__Comentari__Progr__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="VozDelEsteBDModel.FK__Comentari__Usuar__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="VozDelEsteBDModel.FK__Conductor__Perso__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="VozDelEsteBDModel.FK__Usuario__Persona__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="VozDelEsteBDModel.FK__Programac__Progr__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="VozDelEsteBDModel.ConductorProgramaRadio" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

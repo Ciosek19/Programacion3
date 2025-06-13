@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="VozDelEsteBDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Clima">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Fecha" Type="datetime" Nullable="false" />
+          <Property Name="Temperatura" Type="decimal" Precision="5" Scale="2" Nullable="false" />
+          <Property Name="Descripcion" Type="nvarchar(max)" />
+          <Property Name="Icono" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="ComentarioPrograma">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UsuarioID" Type="int" Nullable="false" />
+          <Property Name="ProgramaID" Type="int" Nullable="false" />
+          <Property Name="Comentario" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Conductor">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PersonaID" Type="int" Nullable="false" />
+          <Property Name="Biografia" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="ConductorProgramaRadio">
+          <Key>
+            <PropertyRef Name="ConductorID" />
+            <PropertyRef Name="ProgramaID" />
+          </Key>
+          <Property Name="ConductorID" Type="int" Nullable="false" />
+          <Property Name="ProgramaID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CotizacionMoneda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Fecha" Type="datetime" Nullable="false" />
+          <Property Name="TipoMoneda" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Valor" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Noticia">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Titulo" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Contenido" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="FechaPublicacion" Type="datetime" Nullable="false" />
+          <Property Name="Imagen" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="Patrocinador">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Descripcion" Type="nvarchar(max)" />
+          <Property Name="TransmisionDiaria" Type="int" />
+        </EntityType>
+        <EntityType Name="Persona">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Apellido" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ImagenUrl" Type="nvarchar" MaxLength="500" />
+          <Property Name="FechaNacimiento" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Programacion">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProgramaID" Type="int" Nullable="false" />
+          <Property Name="FechaHorario" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ProgramaRadio">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ImagenUrl" Type="nvarchar" MaxLength="500" />
+          <Property Name="Descripcion" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PersonaID" Type="int" Nullable="false" />
+          <Property Name="NombreUsuario" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Clave" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Rol" Type="int" Nullable="false" />
+          <Property Name="Silenciado" Type="bit" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Comentari__Progr__5070F446">
+          <End Role="ProgramaRadio" Type="Self.ProgramaRadio" Multiplicity="1" />
+          <End Role="ComentarioPrograma" Type="Self.ComentarioPrograma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProgramaRadio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ComentarioPrograma">
+              <PropertyRef Name="ProgramaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Comentari__Usuar__4F7CD00D">
+          <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+          <End Role="ComentarioPrograma" Type="Self.ComentarioPrograma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ComentarioPrograma">
+              <PropertyRef Name="UsuarioID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Conductor__Condu__46E78A0C">
+          <End Role="Conductor" Type="Self.Conductor" Multiplicity="1" />
+          <End Role="ConductorProgramaRadio" Type="Self.ConductorProgramaRadio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Conductor">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ConductorProgramaRadio">
+              <PropertyRef Name="ConductorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Conductor__Perso__3F466844">
+          <End Role="Persona" Type="Self.Persona" Multiplicity="1" />
+          <End Role="Conductor" Type="Self.Conductor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Persona">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Conductor">
+              <PropertyRef Name="PersonaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Conductor__Progr__47DBAE45">
+          <End Role="ProgramaRadio" Type="Self.ProgramaRadio" Multiplicity="1" />
+          <End Role="ConductorProgramaRadio" Type="Self.ConductorProgramaRadio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProgramaRadio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ConductorProgramaRadio">
+              <PropertyRef Name="ProgramaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Programac__Progr__440B1D61">
+          <End Role="ProgramaRadio" Type="Self.ProgramaRadio" Multiplicity="1" />
+          <End Role="Programacion" Type="Self.Programacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProgramaRadio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Programacion">
+              <PropertyRef Name="ProgramaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Usuario__Persona__3C69FB99">
+          <End Role="Persona" Type="Self.Persona" Multiplicity="1" />
+          <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Persona">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Usuario">
+              <PropertyRef Name="PersonaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="VozDelEsteBDModelStoreContainer">
+          <EntitySet Name="Clima" EntityType="Self.Clima" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ComentarioPrograma" EntityType="Self.ComentarioPrograma" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Conductor" EntityType="Self.Conductor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ConductorProgramaRadio" EntityType="Self.ConductorProgramaRadio" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CotizacionMoneda" EntityType="Self.CotizacionMoneda" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Noticia" EntityType="Self.Noticia" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Patrocinador" EntityType="Self.Patrocinador" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Persona" EntityType="Self.Persona" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Programacion" EntityType="Self.Programacion" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProgramaRadio" EntityType="Self.ProgramaRadio" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Comentari__Progr__5070F446" Association="Self.FK__Comentari__Progr__5070F446">
+            <End Role="ProgramaRadio" EntitySet="ProgramaRadio" />
+            <End Role="ComentarioPrograma" EntitySet="ComentarioPrograma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Comentari__Usuar__4F7CD00D" Association="Self.FK__Comentari__Usuar__4F7CD00D">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="ComentarioPrograma" EntitySet="ComentarioPrograma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Conductor__Condu__46E78A0C" Association="Self.FK__Conductor__Condu__46E78A0C">
+            <End Role="Conductor" EntitySet="Conductor" />
+            <End Role="ConductorProgramaRadio" EntitySet="ConductorProgramaRadio" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Conductor__Perso__3F466844" Association="Self.FK__Conductor__Perso__3F466844">
+            <End Role="Persona" EntitySet="Persona" />
+            <End Role="Conductor" EntitySet="Conductor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Conductor__Progr__47DBAE45" Association="Self.FK__Conductor__Progr__47DBAE45">
+            <End Role="ProgramaRadio" EntitySet="ProgramaRadio" />
+            <End Role="ConductorProgramaRadio" EntitySet="ConductorProgramaRadio" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Programac__Progr__440B1D61" Association="Self.FK__Programac__Progr__440B1D61">
+            <End Role="ProgramaRadio" EntitySet="ProgramaRadio" />
+            <End Role="Programacion" EntitySet="Programacion" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Usuario__Persona__3C69FB99" Association="Self.FK__Usuario__Persona__3C69FB99">
+            <End Role="Persona" EntitySet="Persona" />
+            <End Role="Usuario" EntitySet="Usuario" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="VozDelEsteBDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Clima">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Temperatura" Type="Decimal" Precision="5" Scale="2" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Icono" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="ComentarioPrograma">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UsuarioID" Type="Int32" Nullable="false" />
+          <Property Name="ProgramaID" Type="Int32" Nullable="false" />
+          <Property Name="Comentario" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="ProgramaRadio" Relationship="Self.FK__Comentari__Progr__5070F446" FromRole="ComentarioPrograma" ToRole="ProgramaRadio" />
+          <NavigationProperty Name="Usuario" Relationship="Self.FK__Comentari__Usuar__4F7CD00D" FromRole="ComentarioPrograma" ToRole="Usuario" />
+        </EntityType>
+        <EntityType Name="Conductor">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PersonaID" Type="Int32" Nullable="false" />
+          <Property Name="Biografia" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Persona" Relationship="Self.FK__Conductor__Perso__3F466844" FromRole="Conductor" ToRole="Persona" />
+          <NavigationProperty Name="ProgramaRadio" Relationship="Self.ConductorProgramaRadio" FromRole="Conductor" ToRole="ProgramaRadio" />
+        </EntityType>
+        <EntityType Name="CotizacionMoneda">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="TipoMoneda" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Valor" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Noticia">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Titulo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Contenido" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FechaPublicacion" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Imagen" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Patrocinador">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="TransmisionDiaria" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Persona">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ImagenUrl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Conductor" Relationship="Self.FK__Conductor__Perso__3F466844" FromRole="Persona" ToRole="Conductor" />
+          <NavigationProperty Name="Usuario" Relationship="Self.FK__Usuario__Persona__3C69FB99" FromRole="Persona" ToRole="Usuario" />
+        </EntityType>
+        <EntityType Name="Programacion">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProgramaID" Type="Int32" Nullable="false" />
+          <Property Name="FechaHorario" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="ProgramaRadio" Relationship="Self.FK__Programac__Progr__440B1D61" FromRole="Programacion" ToRole="ProgramaRadio" />
+        </EntityType>
+        <EntityType Name="ProgramaRadio">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ImagenUrl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ComentarioPrograma" Relationship="Self.FK__Comentari__Progr__5070F446" FromRole="ProgramaRadio" ToRole="ComentarioPrograma" />
+          <NavigationProperty Name="Programacion" Relationship="Self.FK__Programac__Progr__440B1D61" FromRole="ProgramaRadio" ToRole="Programacion" />
+          <NavigationProperty Name="Conductor" Relationship="Self.ConductorProgramaRadio" FromRole="ProgramaRadio" ToRole="Conductor" />
+        </EntityType>
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PersonaID" Type="Int32" Nullable="false" />
+          <Property Name="NombreUsuario" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Clave" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Rol" Type="Int32" Nullable="false" />
+          <Property Name="Silenciado" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="ComentarioPrograma" Relationship="Self.FK__Comentari__Usuar__4F7CD00D" FromRole="Usuario" ToRole="ComentarioPrograma" />
+          <NavigationProperty Name="Persona" Relationship="Self.FK__Usuario__Persona__3C69FB99" FromRole="Usuario" ToRole="Persona" />
+        </EntityType>
+        <Association Name="FK__Comentari__Progr__5070F446">
+          <End Role="ProgramaRadio" Type="Self.ProgramaRadio" Multiplicity="1" />
+          <End Role="ComentarioPrograma" Type="Self.ComentarioPrograma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProgramaRadio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ComentarioPrograma">
+              <PropertyRef Name="ProgramaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Comentari__Usuar__4F7CD00D">
+          <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+          <End Role="ComentarioPrograma" Type="Self.ComentarioPrograma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuario">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ComentarioPrograma">
+              <PropertyRef Name="UsuarioID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Conductor__Perso__3F466844">
+          <End Role="Persona" Type="Self.Persona" Multiplicity="1" />
+          <End Role="Conductor" Type="Self.Conductor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Persona">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Conductor">
+              <PropertyRef Name="PersonaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Usuario__Persona__3C69FB99">
+          <End Role="Persona" Type="Self.Persona" Multiplicity="1" />
+          <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Persona">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Usuario">
+              <PropertyRef Name="PersonaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Programac__Progr__440B1D61">
+          <End Role="ProgramaRadio" Type="Self.ProgramaRadio" Multiplicity="1" />
+          <End Role="Programacion" Type="Self.Programacion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProgramaRadio">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Programacion">
+              <PropertyRef Name="ProgramaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ConductorProgramaRadio">
+          <End Role="Conductor" Type="Self.Conductor" Multiplicity="*" />
+          <End Role="ProgramaRadio" Type="Self.ProgramaRadio" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="VozDelEsteBDEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Clima" EntityType="Self.Clima" />
+          <EntitySet Name="ComentarioPrograma" EntityType="Self.ComentarioPrograma" />
+          <EntitySet Name="Conductor" EntityType="Self.Conductor" />
+          <EntitySet Name="CotizacionMoneda" EntityType="Self.CotizacionMoneda" />
+          <EntitySet Name="Noticia" EntityType="Self.Noticia" />
+          <EntitySet Name="Patrocinador" EntityType="Self.Patrocinador" />
+          <EntitySet Name="Persona" EntityType="Self.Persona" />
+          <EntitySet Name="Programacion" EntityType="Self.Programacion" />
+          <EntitySet Name="ProgramaRadio" EntityType="Self.ProgramaRadio" />
+          <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+          <AssociationSet Name="FK__Comentari__Progr__5070F446" Association="Self.FK__Comentari__Progr__5070F446">
+            <End Role="ProgramaRadio" EntitySet="ProgramaRadio" />
+            <End Role="ComentarioPrograma" EntitySet="ComentarioPrograma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Comentari__Usuar__4F7CD00D" Association="Self.FK__Comentari__Usuar__4F7CD00D">
+            <End Role="Usuario" EntitySet="Usuario" />
+            <End Role="ComentarioPrograma" EntitySet="ComentarioPrograma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Conductor__Perso__3F466844" Association="Self.FK__Conductor__Perso__3F466844">
+            <End Role="Persona" EntitySet="Persona" />
+            <End Role="Conductor" EntitySet="Conductor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Usuario__Persona__3C69FB99" Association="Self.FK__Usuario__Persona__3C69FB99">
+            <End Role="Persona" EntitySet="Persona" />
+            <End Role="Usuario" EntitySet="Usuario" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Programac__Progr__440B1D61" Association="Self.FK__Programac__Progr__440B1D61">
+            <End Role="ProgramaRadio" EntitySet="ProgramaRadio" />
+            <End Role="Programacion" EntitySet="Programacion" />
+          </AssociationSet>
+          <AssociationSet Name="ConductorProgramaRadio" Association="Self.ConductorProgramaRadio">
+            <End Role="Conductor" EntitySet="Conductor" />
+            <End Role="ProgramaRadio" EntitySet="ProgramaRadio" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="VozDelEsteBDModelStoreContainer" CdmEntityContainer="VozDelEsteBDEntities">
+          <EntitySetMapping Name="Clima">
+            <EntityTypeMapping TypeName="VozDelEsteBDModel.Clima">
+              <MappingFragment StoreEntitySet="Clima">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Temperatura" ColumnName="Temperatura" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Icono" ColumnName="Icono" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ComentarioPrograma">
+            <EntityTypeMapping TypeName="VozDelEsteBDModel.ComentarioPrograma">
+              <MappingFragment StoreEntitySet="ComentarioPrograma">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+                <ScalarProperty Name="ProgramaID" ColumnName="ProgramaID" />
+                <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Conductor">
+            <EntityTypeMapping TypeName="VozDelEsteBDModel.Conductor">
+              <MappingFragment StoreEntitySet="Conductor">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="PersonaID" ColumnName="PersonaID" />
+                <ScalarProperty Name="Biografia" ColumnName="Biografia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CotizacionMoneda">
+            <EntityTypeMapping TypeName="VozDelEsteBDModel.CotizacionMoneda">
+              <MappingFragment StoreEntitySet="CotizacionMoneda">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="TipoMoneda" ColumnName="TipoMoneda" />
+                <ScalarProperty Name="Valor" ColumnName="Valor" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Noticia">
+            <EntityTypeMapping TypeName="VozDelEsteBDModel.Noticia">
+              <MappingFragment StoreEntitySet="Noticia">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+                <ScalarProperty Name="Contenido" ColumnName="Contenido" />
+                <ScalarProperty Name="FechaPublicacion" ColumnName="FechaPublicacion" />
+                <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Patrocinador">
+            <EntityTypeMapping TypeName="VozDelEsteBDModel.Patrocinador">
+              <MappingFragment StoreEntitySet="Patrocinador">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="TransmisionDiaria" ColumnName="TransmisionDiaria" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Persona">
+            <EntityTypeMapping TypeName="VozDelEsteBDModel.Persona">
+              <MappingFragment StoreEntitySet="Persona">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+                <ScalarProperty Name="ImagenUrl" ColumnName="ImagenUrl" />
+                <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Programacion">
+            <EntityTypeMapping TypeName="VozDelEsteBDModel.Programacion">
+              <MappingFragment StoreEntitySet="Programacion">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ProgramaID" ColumnName="ProgramaID" />
+                <ScalarProperty Name="FechaHorario" ColumnName="FechaHorario" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProgramaRadio">
+            <EntityTypeMapping TypeName="VozDelEsteBDModel.ProgramaRadio">
+              <MappingFragment StoreEntitySet="ProgramaRadio">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="ImagenUrl" ColumnName="ImagenUrl" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Usuario">
+            <EntityTypeMapping TypeName="VozDelEsteBDModel.Usuario">
+              <MappingFragment StoreEntitySet="Usuario">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="PersonaID" ColumnName="PersonaID" />
+                <ScalarProperty Name="NombreUsuario" ColumnName="NombreUsuario" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Clave" ColumnName="Clave" />
+                <ScalarProperty Name="Rol" ColumnName="Rol" />
+                <ScalarProperty Name="Silenciado" ColumnName="Silenciado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="ConductorProgramaRadio" TypeName="VozDelEsteBDModel.ConductorProgramaRadio" StoreEntitySet="ConductorProgramaRadio">
+            <EndProperty Name="Conductor">
+              <ScalarProperty Name="Id" ColumnName="ConductorID" />
+            </EndProperty>
+            <EndProperty Name="ProgramaRadio">
+              <ScalarProperty Name="Id" ColumnName="ProgramaID" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
