@@ -72,11 +72,30 @@ namespace DataAccess.Repository
             return cantidad;
         }
 
-        public bool ExisteProducto(int id)
+        public bool ExisteProducto(string id)
         {
-            SqlConnection conexion = null;
-            SqlCommand cmd = null
+            bool existe = false;
+    
+            using (SqlConnection conexion = this.GetConnection())
+            {
+                try
+                {
+                    conexion.Open();
+                    string sql = "SELECT CodigoProducto FROM Producto WHERE CodigoProducto = @id";
             
+                    using (SqlCommand cmd = new SqlCommand(sql, conexion))
+                    {
+                        cmd.Parameters.AddWithValue("@id", id);
+                        existe = cmd.ExecuteScalar() != null;
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine($"Error: {e.Message}");
+                }
+            }
+            return existe;
         }
+
     }
 }

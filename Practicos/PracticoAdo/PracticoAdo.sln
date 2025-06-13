@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticoAdo", "PracticoAdo\PracticoAdo.csproj", "{BB5F5A5E-0104-4A51-87EF-F0F5491C5C24}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Presentacion", "0. Presentacion", "{1F0AFB7A-0B34-4B2F-A787-8981C11E1A16}"
+	ProjectSection(SolutionItems) = preProject
+		PConexion.cs = PConexion.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Business", "1. Business", "{310A5544-31CF-4218-8A21-A07455FFE630}"
 EndProject

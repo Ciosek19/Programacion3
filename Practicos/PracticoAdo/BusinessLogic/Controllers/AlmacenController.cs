@@ -34,7 +34,7 @@ namespace BusinessLogic.Controllers
             return this._Repository.getProductoRepository().GetCantidadProductos();
         }
 
-        public bool ExisteProducto(int id)
+        public bool ExisteProducto(string id)
         {
             return this._Repository.getProductoRepository().ExisteProducto(id);
         }

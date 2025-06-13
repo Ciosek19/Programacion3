@@ -90,7 +90,7 @@ namespace PracticoAdo
             {
                 Console.WriteLine("Ingrese el código de producto");
                 nuevoProducto.CodigoProducto = Console.ReadLine();
-            } while (nuevoProducto.CodigoProducto.First() == null); 
+            } while (ExisteProducto(nuevoProducto.CodigoProducto)); 
 
             Console.WriteLine("Ingrese la descripción");
             nuevoProducto.Descripcion = Console.ReadLine();
@@ -123,9 +123,9 @@ namespace PracticoAdo
             Console.WriteLine($"Cantidad de productos dados de alta: {cantidad}");
         }
 
-        public static bool ExisteProducto()
+        public static bool ExisteProducto(string id)
         {
-            bool existe = almacen.get
+            return almacen.ExisteProducto(id);
         }
     }
 }
