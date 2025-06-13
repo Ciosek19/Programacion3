@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="3dc0f63f8d864000b8d35eab86dc4329" Name="Diagram1">
+      <Diagram DiagramId="3dc0f63f8d864000b8d35eab86dc4329" Name="Diagram1" ZoomLevel="74">
         <EntityTypeShape EntityType="VozDelEsteBDModel.Clima" Width="1.5" PointX="5.75" PointY="8.75" IsExpanded="true" />
         <EntityTypeShape EntityType="VozDelEsteBDModel.ComentarioPrograma" Width="1.5" PointX="7.5" PointY="2.25" IsExpanded="true" />
         <EntityTypeShape EntityType="VozDelEsteBDModel.Conductor" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
@@ -18,9 +18,13 @@
         <AssociationConnector Association="VozDelEsteBDModel.FK__Comentari__Progr__5070F446" ManuallyRouted="false" />
         <AssociationConnector Association="VozDelEsteBDModel.FK__Comentari__Usuar__4F7CD00D" ManuallyRouted="false" />
         <AssociationConnector Association="VozDelEsteBDModel.FK__Conductor__Perso__3F466844" ManuallyRouted="false" />
-        <AssociationConnector Association="VozDelEsteBDModel.FK__Usuario__Persona__3C69FB99" ManuallyRouted="false" />
         <AssociationConnector Association="VozDelEsteBDModel.FK__Programac__Progr__440B1D61" ManuallyRouted="false" />
         <AssociationConnector Association="VozDelEsteBDModel.ConductorProgramaRadio" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="VozDelEsteBDModel.Permiso" Width="1.5" PointX="10.375" PointY="4" />
+        <EntityTypeShape EntityType="VozDelEsteBDModel.Rol" Width="1.5" PointX="12.625" PointY="3.875" />
+        <AssociationConnector Association="VozDelEsteBDModel.RolPermiso" />
+        <AssociationConnector Association="VozDelEsteBDModel.UsuarioRol" />
+        <AssociationConnector Association="VozDelEsteBDModel.FK__Usuario__Persona__44FF419A" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

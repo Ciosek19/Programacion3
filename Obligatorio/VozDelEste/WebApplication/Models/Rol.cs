@@ -12,27 +12,21 @@ namespace WebApplication.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Usuario
+    public partial class Rol
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Usuario()
+        public Rol()
         {
-            this.ComentarioPrograma = new HashSet<ComentarioPrograma>();
-            this.Rol1 = new HashSet<Rol>();
+            this.Permiso = new HashSet<Permiso>();
+            this.Usuario = new HashSet<Usuario>();
         }
     
         public int Id { get; set; }
-        public int PersonaID { get; set; }
-        public string NombreUsuario { get; set; }
-        public string Email { get; set; }
-        public string Clave { get; set; }
-        public int Rol { get; set; }
-        public bool Silenciado { get; set; }
+        public string Nombre { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ComentarioPrograma> ComentarioPrograma { get; set; }
+        public virtual ICollection<Permiso> Permiso { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Rol> Rol1 { get; set; }
-        public virtual Persona Persona { get; set; }
+        public virtual ICollection<Usuario> Usuario { get; set; }
     }
 }

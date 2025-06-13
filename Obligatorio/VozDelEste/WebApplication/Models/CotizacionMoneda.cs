@@ -18,5 +18,7 @@ namespace WebApplication.Models
         public System.DateTime Fecha { get; set; }
         public string TipoMoneda { get; set; }
         public decimal Valor { get; set; }
+        public decimal ValorCompra { get; set; }
+        public decimal ValorVenta { get; set; }
     }
 }

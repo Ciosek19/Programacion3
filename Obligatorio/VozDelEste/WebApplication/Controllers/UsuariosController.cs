@@ -66,11 +66,11 @@ namespace WebApplication.Controllers
 
                 var usuario = new Usuario()
                 {
-                    Id = persona.Id,
-                    PersonaID = registro.PersonaVM.Id,
+                    PersonaID = persona.Id,
                     NombreUsuario = registro.UsuarioVM.NombreUsuario,
                     Email = registro.UsuarioVM.Email,
                     Clave = registro.UsuarioVM.Clave,
+                    Rol = 3
                 };
                 db.Usuario.Add(usuario);
                 db.SaveChanges();

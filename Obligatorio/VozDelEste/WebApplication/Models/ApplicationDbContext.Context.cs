@@ -35,5 +35,7 @@ namespace WebApplication.Models
         public virtual DbSet<Programacion> Programacion { get; set; }
         public virtual DbSet<ProgramaRadio> ProgramaRadio { get; set; }
         public virtual DbSet<Usuario> Usuario { get; set; }
+        public virtual DbSet<Permiso> Permiso { get; set; }
+        public virtual DbSet<Rol> Rol { get; set; }
     }
 }

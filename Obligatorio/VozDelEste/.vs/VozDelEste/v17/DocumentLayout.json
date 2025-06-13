@@ -1,38 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\",
+  "WorkspaceRootPath": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\ceima\\onedrive\\documentos\\rodrigociosek\\programacion3\\obligatorio\\vozdeleste\\webapplication\\views\\usuarios\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\usuarios\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\viewmodels\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\models\\applicationdbcontext.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\models\\applicationdbcontext.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\viewmodels\\usuario.partial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\viewmodels\\usuario.partial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\viewmodels\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\viewmodels\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\controllers\\programaradioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\programaradioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\views\\usuarios\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\usuarios\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\controllers\\programaradioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\programaradioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\webapplication\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,40 +58,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Registro.cshtml",
-              "DocumentMoniker": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Usuarios\\Registro.cshtml",
-              "RelativeDocumentMoniker": "WebApplication\\Views\\Usuarios\\Registro.cshtml",
-              "ToolTip": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Usuarios\\Registro.cshtml",
-              "RelativeToolTip": "WebApplication\\Views\\Usuarios\\Registro.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T23:30:09.66Z",
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Models\\Persona.cs",
+              "RelativeToolTip": "WebApplication\\Models\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T18:04:29.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProgramaRadiosController.cs",
-              "DocumentMoniker": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\ProgramaRadiosController.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Controllers\\ProgramaRadiosController.cs",
-              "ToolTip": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\ProgramaRadiosController.cs",
-              "RelativeToolTip": "WebApplication\\Controllers\\ProgramaRadiosController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwDUAAAAhAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Models\\ApplicationDbContext.edmx",
+              "RelativeDocumentMoniker": "WebApplication\\Models\\ApplicationDbContext.edmx",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Models\\ApplicationDbContext.edmx [Diagram1]",
+              "RelativeToolTip": "WebApplication\\Models\\ApplicationDbContext.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-06-13T16:13:46.699Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.Partial.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\Usuario.Partial.cs",
+              "RelativeDocumentMoniker": "WebApplication\\ViewModels\\Usuario.Partial.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\Usuario.Partial.cs",
+              "RelativeToolTip": "WebApplication\\ViewModels\\Usuario.Partial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T00:34:42.214Z"
+              "WhenOpened": "2025-06-13T15:27:12.701Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Models\\Usuario.cs",
+              "RelativeToolTip": "WebApplication\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T15:26:34.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RegistroViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\RegistroViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\RegistroViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication\\ViewModels\\RegistroViewModel.cs",
-              "ToolTip": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\RegistroViewModel.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\RegistroViewModel.cs",
               "RelativeToolTip": "WebApplication\\ViewModels\\RegistroViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -83,23 +141,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "WebApplication\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "WebApplication\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwEgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T23:29:40.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebApplication\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -107,40 +165,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Usuarios\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebApplication\\Views\\Usuarios\\Login.cshtml",
-              "ToolTip": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Usuarios\\Login.cshtml",
-              "RelativeToolTip": "WebApplication\\Views\\Usuarios\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-12T23:30:12.558Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Web.config",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Web.config",
               "RelativeDocumentMoniker": "WebApplication\\Web.config",
-              "ToolTip": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Web.config",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Web.config",
               "RelativeToolTip": "WebApplication\\Web.config",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEYAAAAkAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-06-12T23:50:00.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApplication\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ceima\\OneDrive\\Documentos\\RodrigoCiosek\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\HomeController.cs",
               "RelativeToolTip": "WebApplication\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T23:44:52.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProgramaRadiosController.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\ProgramaRadiosController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\ProgramaRadiosController.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\ProgramaRadiosController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\ProgramaRadiosController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwDUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T00:34:42.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Usuarios\\Registro.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Usuarios\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Usuarios\\Registro.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Usuarios\\Registro.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAMBXwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T23:30:09.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Usuarios\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Usuarios\\Login.cshtml",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Usuarios\\Login.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Usuarios\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T23:30:12.558Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 897,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
             }
           ]
         }
