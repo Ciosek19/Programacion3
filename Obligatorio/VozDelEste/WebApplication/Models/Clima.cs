@@ -17,7 +17,6 @@ namespace WebApplication.Models
         public int Id { get; set; }
         public System.DateTime Fecha { get; set; }
         public decimal Temperatura { get; set; }
-        public string Descripcion { get; set; }
         public string Icono { get; set; }
         public int Humedad { get; set; }
         public int Viento { get; set; }

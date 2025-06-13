@@ -14,7 +14,7 @@ namespace WebApplication.Controllers
          return View();
       }
 
-      [RequiereRol(RolUsuario.Cliente)]
+      [TienePermiso("Gestion Noticias")]
       public ActionResult About()
       {
          ViewBag.Message = "Your application description page.";

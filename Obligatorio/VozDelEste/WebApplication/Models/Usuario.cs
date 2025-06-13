@@ -18,7 +18,7 @@ namespace WebApplication.Models
         public Usuario()
         {
             this.ComentarioPrograma = new HashSet<ComentarioPrograma>();
-            this.Rol1 = new HashSet<Rol>();
+            this.Rol = new HashSet<Rol>();
         }
     
         public int Id { get; set; }
@@ -26,13 +26,12 @@ namespace WebApplication.Models
         public string NombreUsuario { get; set; }
         public string Email { get; set; }
         public string Clave { get; set; }
-        public int Rol { get; set; }
         public bool Silenciado { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ComentarioPrograma> ComentarioPrograma { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Rol> Rol1 { get; set; }
         public virtual Persona Persona { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Rol> Rol { get; set; }
     }
 }

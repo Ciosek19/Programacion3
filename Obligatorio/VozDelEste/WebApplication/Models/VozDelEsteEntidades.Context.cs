@@ -13,10 +13,10 @@ namespace WebApplication.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class VozDelEsteBDEntities : DbContext
+    public partial class VozDelEsteContext : DbContext
     {
-        public VozDelEsteBDEntities()
-            : base("name=VozDelEsteBDEntities")
+        public VozDelEsteContext()
+            : base("name=VozDelEsteContext")
         {
         }
     
@@ -31,11 +31,11 @@ namespace WebApplication.Models
         public virtual DbSet<CotizacionMoneda> CotizacionMoneda { get; set; }
         public virtual DbSet<Noticia> Noticia { get; set; }
         public virtual DbSet<Patrocinador> Patrocinador { get; set; }
+        public virtual DbSet<Permiso> Permiso { get; set; }
         public virtual DbSet<Persona> Persona { get; set; }
         public virtual DbSet<Programacion> Programacion { get; set; }
         public virtual DbSet<ProgramaRadio> ProgramaRadio { get; set; }
-        public virtual DbSet<Usuario> Usuario { get; set; }
-        public virtual DbSet<Permiso> Permiso { get; set; }
         public virtual DbSet<Rol> Rol { get; set; }
+        public virtual DbSet<Usuario> Usuario { get; set; }
     }
 }

@@ -130,61 +130,64 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ProgramaRadiosController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ApplicationDbContext.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ApplicationDbContext.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ApplicationDbContext.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ApplicationDbContext.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ApplicationDbContext.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ApplicationDbContext.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Models\Clima.cs">
-      <DependentUpon>ApplicationDbContext.tt</DependentUpon>
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ComentarioPrograma.cs">
-      <DependentUpon>ApplicationDbContext.tt</DependentUpon>
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Conductor.cs">
-      <DependentUpon>ApplicationDbContext.tt</DependentUpon>
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CotizacionMoneda.cs">
-      <DependentUpon>ApplicationDbContext.tt</DependentUpon>
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Noticia.cs">
-      <DependentUpon>ApplicationDbContext.tt</DependentUpon>
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Patrocinador.cs">
-      <DependentUpon>ApplicationDbContext.tt</DependentUpon>
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Permiso.cs">
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Persona.cs">
-      <DependentUpon>ApplicationDbContext.tt</DependentUpon>
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Programacion.cs">
-      <DependentUpon>ApplicationDbContext.tt</DependentUpon>
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ProgramaRadio.cs">
-      <DependentUpon>ApplicationDbContext.tt</DependentUpon>
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Rol.cs">
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Usuario.cs">
-      <DependentUpon>ApplicationDbContext.tt</DependentUpon>
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VozDelEsteEntidades.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VozDelEsteEntidades.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VozDelEsteEntidades.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VozDelEsteEntidades.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VozDelEsteEntidades.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VozDelEsteEntidades.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\RegistroViewModel.cs" />
-    <Compile Include="ViewModels\RequiereRolAttribute.cs" />
-    <Compile Include="ViewModels\RolUsuario.cs" />
-    <Compile Include="ViewModels\Usuario.Partial.cs" />
+    <Compile Include="ViewModels\TienePermisoAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
@@ -206,15 +209,15 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\ApplicationDbContext.Context.tt">
+    <Content Include="Models\VozDelEsteEntidades.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ApplicationDbContext.edmx</DependentUpon>
-      <LastGenOutput>ApplicationDbContext.Context.cs</LastGenOutput>
+      <DependentUpon>VozDelEsteEntidades.edmx</DependentUpon>
+      <LastGenOutput>VozDelEsteEntidades.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\ApplicationDbContext.tt">
+    <Content Include="Models\VozDelEsteEntidades.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ApplicationDbContext.edmx</DependentUpon>
-      <LastGenOutput>ApplicationDbContext.cs</LastGenOutput>
+      <DependentUpon>VozDelEsteEntidades.edmx</DependentUpon>
+      <LastGenOutput>VozDelEsteEntidades.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -222,12 +225,12 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\ApplicationDbContext.edmx">
+    <EntityDeploy Include="Models\VozDelEsteEntidades.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ApplicationDbContext.Designer.cs</LastGenOutput>
+      <LastGenOutput>VozDelEsteEntidades.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\ApplicationDbContext.edmx.diagram">
-      <DependentUpon>ApplicationDbContext.edmx</DependentUpon>
+    <Content Include="Models\VozDelEsteEntidades.edmx.diagram">
+      <DependentUpon>VozDelEsteEntidades.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
@@ -267,6 +270,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
