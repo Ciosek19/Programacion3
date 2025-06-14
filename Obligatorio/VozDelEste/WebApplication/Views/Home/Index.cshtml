@@ -3,6 +3,9 @@
 @{
    ViewBag.Title = "Pagina Principal";
 }
+@section styles {
+   <link href="~/Content/HomeIndex.css" rel="stylesheet" />
+}
 <main>
    <div class="banner-en-vivo bg-light p-4 rounded shadow-sm text-center">
       <h2 class="mb-2">
@@ -23,5 +26,8 @@
    <h3>Resumen del dia de hoy</h3>
    @Html.Partial("_ProgramacionDiaria", Model.programacionDiaria)
    <h3>Patrocinadores</h3>
-   @Html.Partial("_Patrocinadores",Model.patrocinadores)
+   @Html.Partial("_Patrocinadores", Model.patrocinadores)
+   <h3>Noticias</h3>
+   @Html.Partial("_Noticias", Model.noticiasResumen)
+
 </main>

@@ -12,5 +12,6 @@ namespace WebApplication.ViewModels
       public List<ProgramaDTO> siguientesProgramas { get; set; }
       public List<ProgramaDTO> programacionDiaria { get; set; }
       public List<Patrocinador> patrocinadores { get; set; }
+      public List<Noticia> noticiasResumen { get; set; }
    }
 }

@@ -14,12 +14,14 @@ namespace WebApplication.Controllers
    {
       private readonly ProgramacionService _programacionService;
       private readonly PatrocinadorService _patrocinadorService;
+      private readonly NoticiaService _noticiaService;
 
       public HomeController()
       {
          var contexto = new VozDelEsteContext();
          _programacionService = new ProgramacionService(contexto);
          _patrocinadorService = new PatrocinadorService(contexto);
+         _noticiaService = new NoticiaService(contexto);
       }
 
       public ActionResult Index()
@@ -30,12 +32,14 @@ namespace WebApplication.Controllers
          var programaEnVivo = programacionDiaria.Find(e => e.EstaEnVivo);
          if (programaEnVivo != null) ViewBag.ProgramaEnVivo = programaEnVivo;
          var patrocinadores = _patrocinadorService.ObtenerPatrocinadores();
+         var noticias = _noticiaService.ObtenerResumenNoticias(5);
 
          var dashboard = new HomeIndexViewModel()
          {
             siguientesProgramas = siguientesProgrmas,
             programacionDiaria = programacionDiaria,
-            patrocinadores = patrocinadores
+            patrocinadores = patrocinadores,
+            noticiasResumen = noticias
          };
          return View(dashboard);
       }

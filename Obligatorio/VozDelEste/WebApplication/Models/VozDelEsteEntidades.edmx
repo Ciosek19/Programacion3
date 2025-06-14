@@ -70,6 +70,7 @@
           <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Descripcion" Type="nvarchar(max)" />
           <Property Name="TransmisionDiaria" Type="int" />
+          <Property Name="UrlImagen" Type="nvarchar" MaxLength="255" />
         </EntityType>
         <EntityType Name="Permiso">
           <Key>
@@ -398,6 +399,7 @@
           <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="TransmisionDiaria" Type="Int32" />
+          <Property Name="UrlImagen" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Permiso">
           <Key>
@@ -645,6 +647,7 @@
           <EntitySetMapping Name="Patrocinador">
             <EntityTypeMapping TypeName="VozDelEsteBDModel.Patrocinador">
               <MappingFragment StoreEntitySet="Patrocinador">
+                <ScalarProperty Name="UrlImagen" ColumnName="UrlImagen" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
                 <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />

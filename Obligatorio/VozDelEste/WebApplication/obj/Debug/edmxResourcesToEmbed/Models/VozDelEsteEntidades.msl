@@ -58,6 +58,7 @@
     <EntitySetMapping Name="Patrocinador">
       <EntityTypeMapping TypeName="VozDelEsteBDModel.Patrocinador">
         <MappingFragment StoreEntitySet="Patrocinador">
+          <ScalarProperty Name="UrlImagen" ColumnName="UrlImagen" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Nombre" ColumnName="Nombre" />
           <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />

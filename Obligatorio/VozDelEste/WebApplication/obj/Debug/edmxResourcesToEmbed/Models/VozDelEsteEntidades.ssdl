@@ -65,6 +65,7 @@
     <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Descripcion" Type="nvarchar(max)" />
     <Property Name="TransmisionDiaria" Type="int" />
+    <Property Name="UrlImagen" Type="nvarchar" MaxLength="255" />
   </EntityType>
   <EntityType Name="Permiso">
     <Key>

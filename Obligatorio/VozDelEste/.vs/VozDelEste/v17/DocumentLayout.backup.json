@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\models\\patrocinador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\models\\patrocinador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\viewmodels\\tienepermisoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\viewmodels\\tienepermisoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\views\\shared\\_patrocinadores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\shared\\_patrocinadores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\views\\shared\\_proximosprogramas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\shared\\_proximosprogramas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\viewmodels\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\viewmodels\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\services\\programacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\services\\programacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\services\\patrocinadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\services\\patrocinadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\viewmodels\\dto\\programadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\viewmodels\\dto\\programadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\models\\vozdelesteentidades.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\models\\vozdelesteentidades.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\views\\shared\\_programaciondiaria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\shared\\_programaciondiaria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|c:\\users\\rodri\\desktop\\cei\\programacion3\\obligatorio\\vozdeleste\\webapplication\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C59A952-68BB-4167-AF18-FCB41C897A84}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,143 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Patrocinador.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Models\\Patrocinador.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Models\\Patrocinador.cs",
-              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Models\\Patrocinador.cs",
-              "RelativeToolTip": "WebApplication\\Models\\Patrocinador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Title": "TienePermisoAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\TienePermisoAttribute.cs",
+              "RelativeDocumentMoniker": "WebApplication\\ViewModels\\TienePermisoAttribute.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\TienePermisoAttribute.cs",
+              "RelativeToolTip": "WebApplication\\ViewModels\\TienePermisoAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T19:36:22.404Z",
+              "WhenOpened": "2025-06-14T22:49:46.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Patrocinadores.cshtml",
-              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Shared\\_Patrocinadores.cshtml",
-              "RelativeDocumentMoniker": "WebApplication\\Views\\Shared\\_Patrocinadores.cshtml",
-              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Shared\\_Patrocinadores.cshtml",
-              "RelativeToolTip": "WebApplication\\Views\\Shared\\_Patrocinadores.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-14T19:33:17.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Global.asax.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Global.asax.cs",
+              "RelativeToolTip": "WebApplication\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T18:02:54.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-14T18:06:57.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeIndexViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\HomeIndexViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplication\\ViewModels\\HomeIndexViewModel.cs",
-              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\HomeIndexViewModel.cs",
-              "RelativeToolTip": "WebApplication\\ViewModels\\HomeIndexViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T17:59:10.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ProximosProgramas.cshtml",
-              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Shared\\_ProximosProgramas.cshtml",
-              "RelativeDocumentMoniker": "WebApplication\\Views\\Shared\\_ProximosProgramas.cshtml",
-              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Shared\\_ProximosProgramas.cshtml",
-              "RelativeToolTip": "WebApplication\\Views\\Shared\\_ProximosProgramas.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-14T18:10:50.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProgramacionService.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Services\\ProgramacionService.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Services\\ProgramacionService.cs",
-              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Services\\ProgramacionService.cs",
-              "RelativeToolTip": "WebApplication\\Services\\ProgramacionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T17:35:21.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PatrocinadorService.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Services\\PatrocinadorService.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Services\\PatrocinadorService.cs",
-              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Services\\PatrocinadorService.cs",
-              "RelativeToolTip": "WebApplication\\Services\\PatrocinadorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T19:27:12.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProgramaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\DTO\\ProgramaDTO.cs",
-              "RelativeDocumentMoniker": "WebApplication\\ViewModels\\DTO\\ProgramaDTO.cs",
-              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\ViewModels\\DTO\\ProgramaDTO.cs",
-              "RelativeToolTip": "WebApplication\\ViewModels\\DTO\\ProgramaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T18:54:36.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VozDelEsteEntidades.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Models\\VozDelEsteEntidades.edmx",
-              "RelativeDocumentMoniker": "WebApplication\\Models\\VozDelEsteEntidades.edmx",
-              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Models\\VozDelEsteEntidades.edmx [Diagram1]",
-              "RelativeToolTip": "WebApplication\\Models\\VozDelEsteEntidades.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-06-14T17:39:00.478Z",
-              "EditorCaption": " [Diagram1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ProgramacionDiaria.cshtml",
-              "DocumentMoniker": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Shared\\_ProgramacionDiaria.cshtml",
-              "RelativeDocumentMoniker": "WebApplication\\Views\\Shared\\_ProgramacionDiaria.cshtml",
-              "ToolTip": "C:\\Users\\rodri\\Desktop\\CEI\\Programacion3\\Obligatorio\\VozDelEste\\WebApplication\\Views\\Shared\\_ProgramacionDiaria.cshtml",
-              "RelativeToolTip": "WebApplication\\Views\\Shared\\_ProgramacionDiaria.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAxwCQAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-14T18:53:24.326Z",
+              "WhenOpened": "2025-06-14T20:49:26.026Z",
               "EditorCaption": ""
             }
           ]

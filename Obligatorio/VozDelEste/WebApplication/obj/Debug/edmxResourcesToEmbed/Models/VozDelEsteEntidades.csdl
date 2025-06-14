@@ -61,6 +61,7 @@
     <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="TransmisionDiaria" Type="Int32" />
+    <Property Name="UrlImagen" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="Permiso">
     <Key>

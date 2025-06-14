@@ -18,5 +18,6 @@ namespace WebApplication.Models
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public Nullable<int> TransmisionDiaria { get; set; }
+        public string UrlImagen { get; set; }
     }
 }
