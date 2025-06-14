@@ -34,6 +34,6 @@ public class TienePermisoAttribute : AuthorizeAttribute
    protected override void HandleUnauthorizedRequest(AuthorizationContext filterContext)
    {
       // Si no está autorizado, redirige al login o a una página de error
-      filterContext.Result = new RedirectResult("/Account/Login");
+      filterContext.Result = new RedirectResult("/Usuarios/Login");
    }
 }

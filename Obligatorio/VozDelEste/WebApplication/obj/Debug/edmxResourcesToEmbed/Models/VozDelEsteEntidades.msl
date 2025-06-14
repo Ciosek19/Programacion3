@@ -96,6 +96,7 @@
     <EntitySetMapping Name="ProgramaRadio">
       <EntityTypeMapping TypeName="VozDelEsteBDModel.ProgramaRadio">
         <MappingFragment StoreEntitySet="ProgramaRadio">
+          <ScalarProperty Name="Duracion" ColumnName="Duracion" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Nombre" ColumnName="Nombre" />
           <ScalarProperty Name="ImagenUrl" ColumnName="ImagenUrl" />

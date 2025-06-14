@@ -88,7 +88,7 @@
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="ProgramaID" Type="Int32" Nullable="false" />
-    <Property Name="FechaHorario" Type="DateTime" Precision="3" />
+    <Property Name="FechaHorario" Type="DateTime" Precision="3" Nullable="false" />
     <NavigationProperty Name="ProgramaRadio" Relationship="Self.FK__Programac__Progr__0B91BA14" FromRole="Programacion" ToRole="ProgramaRadio" />
   </EntityType>
   <EntityType Name="ProgramaRadio">
@@ -102,6 +102,7 @@
     <NavigationProperty Name="ComentarioPrograma" Relationship="Self.FK__Comentari__Progr__17F790F9" FromRole="ProgramaRadio" ToRole="ComentarioPrograma" />
     <NavigationProperty Name="Programacion" Relationship="Self.FK__Programac__Progr__0B91BA14" FromRole="ProgramaRadio" ToRole="Programacion" />
     <NavigationProperty Name="Conductor" Relationship="Self.ConductorProgramaRadio" FromRole="ProgramaRadio" ToRole="Conductor" />
+    <Property Name="Duracion" Type="Time" Nullable="false" Precision="7" />
   </EntityType>
   <EntityType Name="Rol">
     <Key>

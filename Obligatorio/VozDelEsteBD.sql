@@ -1,10 +1,10 @@
-IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'VozDelEste')
+IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'VozDelEsteBD')
 BEGIN
-    CREATE DATABASE VozDelEste;
+    CREATE DATABASE VozDelEsteBD;
 END
 GO
 -- Cambiar al contexto de la base de datos solo después de que exista
-USE VozDelEste;
+USE VozDelEsteBD;
 GO
 DROP TABLE IF EXISTS UsuarioRol;
 GO
@@ -122,7 +122,8 @@ BEGIN
         Id INT PRIMARY KEY IDENTITY,
         Nombre NVARCHAR(50) NOT NULL,
         ImagenUrl NVARCHAR(500),
-        Descripcion NVARCHAR(MAX)
+        Descripcion NVARCHAR(MAX),
+		Duracion TIME NOT NULL
     );
 END
 GO
@@ -132,7 +133,7 @@ BEGIN
     CREATE TABLE Programacion(
         Id INT PRIMARY KEY IDENTITY,
         ProgramaID INT NOT NULL,
-        FechaHorario DATETIME,
+        FechaHorario DATETIME NOT NULL,
         FOREIGN KEY (ProgramaID) REFERENCES ProgramaRadio(Id)
     );
 END
@@ -156,7 +157,8 @@ BEGIN
         Id INT PRIMARY KEY IDENTITY,
         Nombre NVARCHAR(50) NOT NULL,
         Descripcion NVARCHAR(MAX),
-        TransmisionDiaria INT
+        TransmisionDiaria INT,
+		UrlImagen NVARCHAR(255)
     );
 END
 GO
@@ -299,15 +301,17 @@ INSERT INTO Conductor (PersonaID, Biografia) VALUES
 (20, 'Fernando Silva es un conductor veterano con amplia audiencia.');
 GO
 -- Tabla ProgramaRadio
-INSERT INTO ProgramaRadio (Nombre, ImagenUrl, Descripcion) VALUES
-('Mañanas Vibrantes', NULL, 'Un programa matutino lleno de energía, noticias y buena música para empezar el día.'),
-('Tardes de Jazz', NULL, 'Selección especial de jazz clásico y contemporáneo para acompañar tus tardes.'),
-('Noticias al Instante', NULL, 'Actualidad y análisis de las noticias más relevantes del día.'),
-('Hora de Rock', NULL, 'Lo mejor del rock nacional e internacional con entrevistas exclusivas.'),
-('Cultura y Letras', NULL, 'Espacio dedicado a la literatura, el arte y la cultura en general.'),
-('Deportes en Vivo', NULL, 'Cobertura y debate de los eventos deportivos más importantes.'),
-('Tecnología Hoy', NULL, 'Novedades y tendencias tecnológicas explicadas para todos.'),
-('Noche de Nostalgia', NULL, 'Música de todas las épocas para revivir grandes recuerdos en la noche.');
+INSERT INTO ProgramaRadio (Nombre, ImagenUrl, Descripcion, Duracion) VALUES
+('Mañanas Vibrantes', NULL, 'Un programa matutino lleno de energía, noticias y buena música para empezar el día.', '01:30:00'),
+('Tardes de Jazz', NULL, 'Selección especial de jazz clásico y contemporáneo para acompañar tus tardes.', '02:00:00'),
+('Noticias al Instante', NULL, 'Actualidad y análisis de las noticias más relevantes del día.', '01:00:00'),
+('Hora de Rock', NULL, 'Lo mejor del rock nacional e internacional con entrevistas exclusivas.', '01:45:00'),
+('Cultura y Letras', NULL, 'Espacio dedicado a la literatura, el arte y la cultura en general.', '01:15:00'),
+('Deportes en Vivo', NULL, 'Cobertura y debate de los eventos deportivos más importantes.', '02:30:00'),
+('Tecnología Hoy', NULL, 'Novedades y tendencias tecnológicas explicadas para todos.', '01:20:00'),
+('Noche de Nostalgia', NULL, 'Música de todas las épocas para revivir grandes recuerdos en la noche.', '03:00:00');
+GO
+
 GO
 -- Tabla Programacion
 -- Programación semanal de programas de radio

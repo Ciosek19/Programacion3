@@ -16,7 +16,7 @@ namespace WebApplication.Models
     {
         public int Id { get; set; }
         public int ProgramaID { get; set; }
-        public Nullable<System.DateTime> FechaHorario { get; set; }
+        public System.DateTime FechaHorario { get; set; }
     
         public virtual ProgramaRadio ProgramaRadio { get; set; }
     }

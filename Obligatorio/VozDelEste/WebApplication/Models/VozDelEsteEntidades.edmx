@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="VozDelEsteBDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="VozDelEsteBDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Clima">
           <Key>
             <PropertyRef Name="Id" />
@@ -94,7 +94,7 @@
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="ProgramaID" Type="int" Nullable="false" />
-          <Property Name="FechaHorario" Type="datetime" />
+          <Property Name="FechaHorario" Type="datetime" Nullable="false" />
         </EntityType>
         <EntityType Name="ProgramaRadio">
           <Key>
@@ -104,6 +104,7 @@
           <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="ImagenUrl" Type="nvarchar" MaxLength="500" />
           <Property Name="Descripcion" Type="nvarchar(max)" />
+          <Property Name="Duracion" Type="time" Precision="7" Nullable="false" />
         </EntityType>
         <EntityType Name="Rol">
           <Key>
@@ -139,7 +140,7 @@
           <Property Name="UsuarioID" Type="int" Nullable="false" />
           <Property Name="RolID" Type="int" Nullable="false" />
         </EntityType>
-        <Association Name="FK__Comentari__Progr__17F790F9">
+        <Association Name="FK__Comentari__Progr__17036CC0">
           <End Role="ProgramaRadio" Type="Self.ProgramaRadio" Multiplicity="1" />
           <End Role="ComentarioPrograma" Type="Self.ComentarioPrograma" Multiplicity="*" />
           <ReferentialConstraint>
@@ -151,7 +152,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Comentari__Usuar__17036CC0">
+        <Association Name="FK__Comentari__Usuar__160F4887">
           <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
           <End Role="ComentarioPrograma" Type="Self.ComentarioPrograma" Multiplicity="*" />
           <ReferentialConstraint>
@@ -163,7 +164,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Conductor__Condu__0E6E26BF">
+        <Association Name="FK__Conductor__Condu__0D7A0286">
           <End Role="Conductor" Type="Self.Conductor" Multiplicity="1" />
           <End Role="ConductorProgramaRadio" Type="Self.ConductorProgramaRadio" Multiplicity="*" />
           <ReferentialConstraint>
@@ -175,7 +176,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Conductor__Perso__06CD04F7">
+        <Association Name="FK__Conductor__Perso__05D8E0BE">
           <End Role="Persona" Type="Self.Persona" Multiplicity="1" />
           <End Role="Conductor" Type="Self.Conductor" Multiplicity="*" />
           <ReferentialConstraint>
@@ -187,7 +188,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Conductor__Progr__0F624AF8">
+        <Association Name="FK__Conductor__Progr__0E6E26BF">
           <End Role="ProgramaRadio" Type="Self.ProgramaRadio" Multiplicity="1" />
           <End Role="ConductorProgramaRadio" Type="Self.ConductorProgramaRadio" Multiplicity="*" />
           <ReferentialConstraint>
@@ -199,7 +200,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Programac__Progr__0B91BA14">
+        <Association Name="FK__Programac__Progr__0A9D95DB">
           <End Role="ProgramaRadio" Type="Self.ProgramaRadio" Multiplicity="1" />
           <End Role="Programacion" Type="Self.Programacion" Multiplicity="*" />
           <ReferentialConstraint>
@@ -235,7 +236,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Usuario__Persona__7F2BE32F">
+        <Association Name="FK__Usuario__Persona__7E37BEF6">
           <End Role="Persona" Type="Self.Persona" Multiplicity="1" />
           <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
           <ReferentialConstraint>
@@ -247,7 +248,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__UsuarioRo__RolID__02FC7413">
+        <Association Name="FK__UsuarioRo__RolID__02084FDA">
           <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
           <End Role="UsuarioRol" Type="Self.UsuarioRol" Multiplicity="*" />
           <ReferentialConstraint>
@@ -259,7 +260,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__UsuarioRo__Usuar__02084FDA">
+        <Association Name="FK__UsuarioRo__Usuar__01142BA1">
           <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
           <End Role="UsuarioRol" Type="Self.UsuarioRol" Multiplicity="*" />
           <ReferentialConstraint>
@@ -287,27 +288,27 @@
           <EntitySet Name="RolPermiso" EntityType="Self.RolPermiso" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UsuarioRol" EntityType="Self.UsuarioRol" Schema="dbo" store:Type="Tables" />
-          <AssociationSet Name="FK__Comentari__Progr__17F790F9" Association="Self.FK__Comentari__Progr__17F790F9">
+          <AssociationSet Name="FK__Comentari__Progr__17036CC0" Association="Self.FK__Comentari__Progr__17036CC0">
             <End Role="ProgramaRadio" EntitySet="ProgramaRadio" />
             <End Role="ComentarioPrograma" EntitySet="ComentarioPrograma" />
           </AssociationSet>
-          <AssociationSet Name="FK__Comentari__Usuar__17036CC0" Association="Self.FK__Comentari__Usuar__17036CC0">
+          <AssociationSet Name="FK__Comentari__Usuar__160F4887" Association="Self.FK__Comentari__Usuar__160F4887">
             <End Role="Usuario" EntitySet="Usuario" />
             <End Role="ComentarioPrograma" EntitySet="ComentarioPrograma" />
           </AssociationSet>
-          <AssociationSet Name="FK__Conductor__Condu__0E6E26BF" Association="Self.FK__Conductor__Condu__0E6E26BF">
+          <AssociationSet Name="FK__Conductor__Condu__0D7A0286" Association="Self.FK__Conductor__Condu__0D7A0286">
             <End Role="Conductor" EntitySet="Conductor" />
             <End Role="ConductorProgramaRadio" EntitySet="ConductorProgramaRadio" />
           </AssociationSet>
-          <AssociationSet Name="FK__Conductor__Perso__06CD04F7" Association="Self.FK__Conductor__Perso__06CD04F7">
+          <AssociationSet Name="FK__Conductor__Perso__05D8E0BE" Association="Self.FK__Conductor__Perso__05D8E0BE">
             <End Role="Persona" EntitySet="Persona" />
             <End Role="Conductor" EntitySet="Conductor" />
           </AssociationSet>
-          <AssociationSet Name="FK__Conductor__Progr__0F624AF8" Association="Self.FK__Conductor__Progr__0F624AF8">
+          <AssociationSet Name="FK__Conductor__Progr__0E6E26BF" Association="Self.FK__Conductor__Progr__0E6E26BF">
             <End Role="ProgramaRadio" EntitySet="ProgramaRadio" />
             <End Role="ConductorProgramaRadio" EntitySet="ConductorProgramaRadio" />
           </AssociationSet>
-          <AssociationSet Name="FK__Programac__Progr__0B91BA14" Association="Self.FK__Programac__Progr__0B91BA14">
+          <AssociationSet Name="FK__Programac__Progr__0A9D95DB" Association="Self.FK__Programac__Progr__0A9D95DB">
             <End Role="ProgramaRadio" EntitySet="ProgramaRadio" />
             <End Role="Programacion" EntitySet="Programacion" />
           </AssociationSet>
@@ -319,21 +320,20 @@
             <End Role="Rol" EntitySet="Rol" />
             <End Role="RolPermiso" EntitySet="RolPermiso" />
           </AssociationSet>
-          <AssociationSet Name="FK__Usuario__Persona__7F2BE32F" Association="Self.FK__Usuario__Persona__7F2BE32F">
+          <AssociationSet Name="FK__Usuario__Persona__7E37BEF6" Association="Self.FK__Usuario__Persona__7E37BEF6">
             <End Role="Persona" EntitySet="Persona" />
             <End Role="Usuario" EntitySet="Usuario" />
           </AssociationSet>
-          <AssociationSet Name="FK__UsuarioRo__RolID__02FC7413" Association="Self.FK__UsuarioRo__RolID__02FC7413">
+          <AssociationSet Name="FK__UsuarioRo__RolID__02084FDA" Association="Self.FK__UsuarioRo__RolID__02084FDA">
             <End Role="Rol" EntitySet="Rol" />
             <End Role="UsuarioRol" EntitySet="UsuarioRol" />
           </AssociationSet>
-          <AssociationSet Name="FK__UsuarioRo__Usuar__02084FDA" Association="Self.FK__UsuarioRo__Usuar__02084FDA">
+          <AssociationSet Name="FK__UsuarioRo__Usuar__01142BA1" Association="Self.FK__UsuarioRo__Usuar__01142BA1">
             <End Role="Usuario" EntitySet="Usuario" />
             <End Role="UsuarioRol" EntitySet="UsuarioRol" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="VozDelEsteBDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -425,7 +425,7 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="ProgramaID" Type="Int32" Nullable="false" />
-          <Property Name="FechaHorario" Type="DateTime" Precision="3" />
+          <Property Name="FechaHorario" Type="DateTime" Precision="3" Nullable="false" />
           <NavigationProperty Name="ProgramaRadio" Relationship="Self.FK__Programac__Progr__0B91BA14" FromRole="Programacion" ToRole="ProgramaRadio" />
         </EntityType>
         <EntityType Name="ProgramaRadio">
@@ -439,6 +439,7 @@
           <NavigationProperty Name="ComentarioPrograma" Relationship="Self.FK__Comentari__Progr__17F790F9" FromRole="ProgramaRadio" ToRole="ComentarioPrograma" />
           <NavigationProperty Name="Programacion" Relationship="Self.FK__Programac__Progr__0B91BA14" FromRole="ProgramaRadio" ToRole="Programacion" />
           <NavigationProperty Name="Conductor" Relationship="Self.ConductorProgramaRadio" FromRole="ProgramaRadio" ToRole="Conductor" />
+          <Property Name="Duracion" Type="Time" Nullable="false" Precision="7" />
         </EntityType>
         <EntityType Name="Rol">
           <Key>
@@ -682,6 +683,7 @@
           <EntitySetMapping Name="ProgramaRadio">
             <EntityTypeMapping TypeName="VozDelEsteBDModel.ProgramaRadio">
               <MappingFragment StoreEntitySet="ProgramaRadio">
+                <ScalarProperty Name="Duracion" ColumnName="Duracion" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
                 <ScalarProperty Name="ImagenUrl" ColumnName="ImagenUrl" />

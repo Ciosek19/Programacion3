@@ -186,6 +186,10 @@
       <DependentUpon>VozDelEsteEntidades.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\PatrocinadorService.cs" />
+    <Compile Include="Services\ProgramacionService.cs" />
+    <Compile Include="ViewModels\HomeIndexViewModel.cs" />
+    <Compile Include="ViewModels\DTO\ProgramaDTO.cs" />
     <Compile Include="ViewModels\RegistroViewModel.cs" />
     <Compile Include="ViewModels\TienePermisoAttribute.cs" />
   </ItemGroup>
@@ -267,10 +271,12 @@
     <Content Include="Views\ProgramaRadios\Details.cshtml" />
     <Content Include="Views\ProgramaRadios\Edit.cshtml" />
     <Content Include="Views\ProgramaRadios\Index.cshtml" />
+    <Content Include="Views\Shared\_ProximosProgramas.cshtml" />
+    <Content Include="Views\Shared\_ProgramacionDiaria.cshtml" />
+    <Content Include="Views\Shared\_Patrocinadores.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
